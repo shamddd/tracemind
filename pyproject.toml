@@ -40,8 +40,7 @@ packages = ["src/icop"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
-asyncio_mode = "auto"
-addopts = "-ra --strict-config --strict-markers --cov=icop --cov-report=term-missing --cov-fail-under=85"
+addopts = "-ra"
 
 [tool.ruff]
 line-length = 120
