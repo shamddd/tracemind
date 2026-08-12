@@ -1,0 +1,21 @@
+\section{Experimental Setup & CausalOpsBench}
+\label{sec:evaluation}
+
+\subsection{CausalOpsBench Scenarios}
+We evaluate TraceMind on **CausalOpsBench**, comprising 24 microservice fault scenarios across 6 fault modes:
+\begin{enumerate}
+    \item \textbf{S01 (CPU Saturation)}: 100\% CPU thread lock on Payment service.
+    \item \textbf{S02 (Memory Leak)}: RAM exhaustion and OOM crash on Auth service.
+    \item \textbf{S03 (DB Connection Starvation)}: Pool exhaustion on Inventory service.
+    \item \textbf{S04 (Network Latency Injection)}: 250ms synthetic RPC delay on Auth link.
+    \item \textbf{S05 (Cascading Retry Storm)}: Transient timeout causing 10x retries on Payment.
+    \item \textbf{S06 (Dependency Crash)}: SIGKILL process termination on Database container.
+\end{enumerate}
+
+\subsection{Evaluated Baselines}
+\begin{itemize}
+    \item \textbf{B0 (Threshold Alerts)}: Static PromQL metric thresholding.
+    \item \textbf{B1 (IsolationForest Metric)}: Unsupervised metric isolation forest.
+    \item \textbf{B2 (Unconstrained LLM)}: Direct prompt diagnosis without topology constraints.
+    \item \textbf{TraceMind (Proposed)}: Graph-constrained causal evidence engine.
+\end{itemize}

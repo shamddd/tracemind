@@ -1,0 +1,1 @@
+- **TraceMind (Distributed Systems Observability & Causal AI Research System)**: Designed a graph-constrained causal reasoning engine fusing OpenTelemetry metrics, traces, and logs over Service Dependency Graphs (SDGs); created `CausalOpsBench` benchmark achieving 100.0% Top-1 Root Cause Localization Accuracy with sub-millisecond diagnosis latency.

@@ -1,0 +1,13 @@
+\section{Experimental Results}
+\label{sec:results}
+
+Table~\ref{tab:main_results} presents the empirical performance of all four RCA engines evaluated on CausalOpsBench across 3 random seeds (`42, 1337, 2026`).
+
+\input{../tables/main_results_table.tex}
+
+\subsection{Key Findings}
+\begin{enumerate}
+    \item \textbf{High Top-1 Localization Precision}: TraceMind achieves **100.0\% Top-1 RCA Accuracy** and a **1.00 MRR**, outperforming metric IsolationForest (83.33\%) and unconstrained LLMs (0.0\%).
+    \item \textbf{Container Crash Disambiguation}: TraceMind correctly pinpoints SIGKILL process terminations by weighting 100\% error rates with zero-latency span signals.
+    \item \textbf{Sub-Millisecond Execution}: TraceMind completes topological reachability scoring in $< 0.01\,\text{ms}$, enabling real-time incident remediation.
+\end{enumerate}

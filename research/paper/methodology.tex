@@ -1,0 +1,18 @@
+\section{TraceMind Architecture}
+\label{sec:methodology}
+
+The TraceMind architecture builds a Service Dependency Graph $G = (V, E)$ from OpenTelemetry RPC traces.
+
+\subsection{Multi-Modal Evidence Scoring}
+For each service node $v \in V$, TraceMind extracts anomaly magnitude:
+\begin{align}
+    A_v = 2.0 \cdot \frac{\text{CPU}_v}{100} + 1.5 \cdot \frac{\text{RAM}_v}{100} + 5.0 \cdot \text{Err}_v + \text{Crash}_v
+\end{align}
+where $\text{Crash}_v = 15.0$ if $\text{Err}_v \ge 0.99 \land \text{Latency}_v < 1.0\,\text{ms}$.
+
+\subsection{Topological Reachability Weighting}
+To prevent downstream symptom nodes from outranking upstream originators, TraceMind computes:
+\begin{align}
+    S_{\text{causal}}(v) = A_v \cdot \left(1.0 + 0.5 \cdot |\text{Ancestors}(v)|\right)
+\end{align}
+Candidate root causes are ranked descending by $S_{\text{causal}}(v)$.

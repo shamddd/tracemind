@@ -1,0 +1,15 @@
+\section{Introduction}
+\label{sec:intro}
+
+Enterprise cloud applications are increasingly constructed as distributed microservices deployed across Kubernetes clusters \cite{wu2020microrca}. While modular microservices improve scalability, they introduce complex failure modes where a localized bottleneck (e.g. database connection starvation) propagates upstream, causing cascading HTTP 504 timeouts across the entire service call graph.
+
+When incidents occur, Site Reliability Engineers (SREs) are overwhelmed by alert storms. Standard metric threshold alerts flag downstream symptom services rather than the originating root cause. Unconstrained LLM reasoning agents prompted with raw logs frequently hallucinate invalid service dependencies or select symptom services \cite{meng2020cloudrca}.
+
+To resolve this limitation, we present \textbf{TraceMind}, a graph-constrained causal reasoning engine that combines Service Dependency Graphs (SDGs) with multi-modal telemetry fusion (metrics, traces, logs).
+
+Our primary contributions include:
+\begin{enumerate}
+    \item \textbf{Dynamic Service Dependency Graph Engine}: Construction of call topology graphs $G=(V, E)$ from OpenTelemetry distributed traces.
+    \item \textbf{Causal Evidence Attribution Scorer}: Topological reachability weighting that ranks root-cause originators above downstream symptom nodes.
+    \item \textbf{CausalOpsBench Benchmark}: A 24-scenario benchmark evaluating 6 microservice fault injection modes across 3 random seeds.
+\end{enumerate}
