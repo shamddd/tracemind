@@ -1,0 +1,6 @@
+CausalOpsBench Top-1 Accuracy vs MRR Summary
+----------------------------------------------
+B0_ThresholdAlerts: Top1=0.0% | MRR=0.35 | Latency=0.0ms
+B1_IsolationForest: Top1=83.33% | MRR=0.87 | Latency=0.0ms
+B2_UnconstrainedLLM: Top1=0.0% | MRR=0.44 | Latency=0.0ms
+TraceMind: Top1=100.0% | MRR=1.0 | Latency=0.0ms

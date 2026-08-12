@@ -1,0 +1,1226 @@
+[
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": false,
+    "mrr": 0.25,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": false,
+    "mrr": 0.2,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": false,
+    "mrr": 0.25,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": false,
+    "mrr": 0.2,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": false,
+    "mrr": 0.25,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "B0_ThresholdAlerts",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": false,
+    "mrr": 0.2,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Database",
+      "Gateway",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.01,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Gateway",
+      "Database",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Inventory",
+      "Database",
+      "Gateway",
+      "Payment",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Gateway",
+      "Database",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Gateway",
+      "Database",
+      "Auth",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": false,
+    "mrr": 0.2,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Database",
+      "Gateway",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Gateway",
+      "Database",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Inventory",
+      "Database",
+      "Gateway",
+      "Payment",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Gateway",
+      "Database",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Gateway",
+      "Database",
+      "Auth",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": false,
+    "mrr": 0.2,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Database",
+      "Gateway",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Gateway",
+      "Database",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Inventory",
+      "Database",
+      "Gateway",
+      "Payment",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Gateway",
+      "Database",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Gateway",
+      "Database",
+      "Auth",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "B1_IsolationForest",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Database"
+    ],
+    "top_1": false,
+    "top_3": false,
+    "mrr": 0.2,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Inventory",
+      "Database",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Database",
+      "Database",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Inventory",
+      "Database",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Database",
+      "Database",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Inventory",
+      "Database",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Gateway",
+      "Auth",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Database",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.5,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "B2_UnconstrainedLLM",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Gateway",
+      "Payment",
+      "Database",
+      "Database",
+      "Auth"
+    ],
+    "top_1": false,
+    "top_3": true,
+    "mrr": 0.33,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "TraceMind",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Database",
+      "Gateway",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.01,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "TraceMind",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Gateway",
+      "Database",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "TraceMind",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Inventory",
+      "Database",
+      "Payment",
+      "Gateway",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "TraceMind",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Database",
+      "Gateway",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "TraceMind",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Database",
+      "Gateway",
+      "Auth",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "TraceMind",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Database",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Gateway"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 42
+  },
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "TraceMind",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Database",
+      "Gateway",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "TraceMind",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Gateway",
+      "Database",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "TraceMind",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Inventory",
+      "Database",
+      "Payment",
+      "Gateway",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "TraceMind",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Database",
+      "Gateway",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "TraceMind",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Database",
+      "Gateway",
+      "Auth",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "TraceMind",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Database",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Gateway"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 1337
+  },
+  {
+    "scenario_id": "S01_CPUSaturation",
+    "mode": "TraceMind",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Database",
+      "Gateway",
+      "Inventory",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S02_MemoryLeak",
+    "mode": "TraceMind",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Gateway",
+      "Database",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S03_DBConnectionExhaustion",
+    "mode": "TraceMind",
+    "true_root_cause": "Inventory",
+    "ranked_candidates": [
+      "Inventory",
+      "Database",
+      "Payment",
+      "Gateway",
+      "Auth"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S04_NetworkLatency",
+    "mode": "TraceMind",
+    "true_root_cause": "Auth",
+    "ranked_candidates": [
+      "Auth",
+      "Database",
+      "Gateway",
+      "Payment",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S05_CascadingRetryStorm",
+    "mode": "TraceMind",
+    "true_root_cause": "Payment",
+    "ranked_candidates": [
+      "Payment",
+      "Database",
+      "Gateway",
+      "Auth",
+      "Inventory"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  },
+  {
+    "scenario_id": "S06_DependencyCrash",
+    "mode": "TraceMind",
+    "true_root_cause": "Database",
+    "ranked_candidates": [
+      "Database",
+      "Auth",
+      "Payment",
+      "Inventory",
+      "Gateway"
+    ],
+    "top_1": true,
+    "top_3": true,
+    "mrr": 1.0,
+    "diagnosis_latency_ms": 0.0,
+    "seed": 2026
+  }
+]

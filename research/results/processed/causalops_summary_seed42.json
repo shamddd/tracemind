@@ -1,0 +1,26 @@
+{
+  "B0_ThresholdAlerts": {
+    "top1_accuracy": 0.0,
+    "top3_accuracy": 66.67,
+    "mrr": 0.35,
+    "avg_latency_ms": 0.0
+  },
+  "B1_IsolationForest": {
+    "top1_accuracy": 83.33,
+    "top3_accuracy": 83.33,
+    "mrr": 0.87,
+    "avg_latency_ms": 0.0
+  },
+  "B2_UnconstrainedLLM": {
+    "top1_accuracy": 0.0,
+    "top3_accuracy": 100.0,
+    "mrr": 0.44,
+    "avg_latency_ms": 0.0
+  },
+  "TraceMind": {
+    "top1_accuracy": 100.0,
+    "top3_accuracy": 100.0,
+    "mrr": 1.0,
+    "avg_latency_ms": 0.0
+  }
+}
