@@ -1,0 +1,10 @@
+services:
+  observability-platform:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: observability-platform
+    ports:
+      - "8000:8000"
+    environment:
+      - LOG_LEVEL=INFO
